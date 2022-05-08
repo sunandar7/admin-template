@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eee;
+}
+
+/* START NAVBAR */
+.sidebars{
+    height: 100vh;
+
+    box-shadow: 1px 0 15px #999;
+}
+
+.borderbottoms{
+    border-bottom: 1px groove #eee;
+}
+
+.currents{
+    background-color: rgb(255, 2, 108);
+    border-radius: 7px;
+    box-shadow: 2px 5px 10px #111;
+
+    transition: all 0.3s;
+}
+
+.sidebarlinks{
+    transition: all 0.3s;
+}
+
+.sidebarlinks:hover{
+    background-color: rgb(139, 137, 137);
+    border-radius: 7px;
+}
+
+.breadcrumb a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+@media(max-width:760px){
+    .sidebars{
+        height: auto;
+        position: static;
+    }
+
+    .topnavbars{
+        position: static;
+    }
+}
+
+.searchinputs{
+    background-color: transparent;
+    color: #fff;
+}
+.searchinputs:focus{
+    background-color: transparent;
+    color: #fff;
+    box-shadow: none;
+    border: 1px solid #fff;
+}
+.searchbtns{
+    background-color: transparent;
+    color: #fff;
+}
+
+.searchbtns:hover{
+    background-color: rgb(255, 2, 108);
+    color: #fff;
+}
+
+.iconparents{
+    position: relative;
+}
+
+.iconbullets::after{
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: rgb(255, 2, 108);
+    border-radius: 50%;
+
+    position: absolute;
+    top: 5px;
+    left: 22px;
+}
+/* END NAVBAR */
+
+/* START CARD SECTION */
+.cardcommons{
+    box-shadow: 1px 2px 5px #999;
+
+    transition: all 0.3s;
+}
+
+.cardcommons:hover{
+    box-shadow: 1px 3px 15px #999;
+    transform: translateY(-3px);
+}
+/* END CARD SECTION */
+
+/* START TASK SECTION */
+.taskborders{
+    padding: 15px;
+    border-bottom: 2px groove rgba(0,0,0,0.1);
+}
+
+.customers:hover{
+    background-color: rgb(192, 189, 189);
+}
+/* END TASK SECTION */
+
+/* START TEAM MEMBER AND BEST PRODUCT SECTION */
+.members{
+    width: 100px;
+    height: 40px;
+}
+
+.activenows::before{
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: green;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 33px;
+    left: 0;
+}
+
+.offlines::before{
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 33px;
+    left: 0;
+}
+
+.phones{
+    background-color: rgb(154, 204, 204);
+    color: rgb(62, 151, 144);
+}
+
+.laptops{
+    background-color: rgb(221, 204, 126);
+    color: rgb(211, 173, 4);
+}
+
+.headphones{
+    background-color: rgb(159, 158, 209);
+    color: rgb(47, 51, 114);
+}
+/* END TEAM MEMBER AND BEST PRODUCT SECTION */
+
+/* START REPORT SECTION */
+.saleborders{
+    border: 0;
+    border-top: 1px groove darkblue;
+    border-left: 1px groove darkblue;
+    border-right: 1px groove darkblue;
+    border-bottom: 3px groove darkblue;
+
+    transition: all 0.3s;
+}
+
+.saleborders:hover{
+    transform: translateY(-4px);
+}
+
+.incomeborders{
+    border: 0;
+    border-top: 1px groove darkorange;
+    border-left: 1px groove darkorange;
+    border-right: 1px groove darkorange;
+    border-bottom: 3px groove darkorange;
+
+    transition: all 0.3s;
+}
+
+.incomeborders:hover{
+    transform: translateY(-4px);
+}
+
+.expenseborders{
+    border: 0;
+    border-top: 1px groove tomato;
+    border-left: 1px groove tomato;
+    border-right: 1px groove tomato;
+    border-bottom: 3px groove tomato;
+
+    transition: all 0.3s;
+}
+
+.expenseborders:hover{
+    transform: translateY(-4px);
+}
+
+.revenueborders{
+    border: 0;
+    border-top: 1px groove blue;
+    border-left: 1px groove blue;
+    border-right: 1px groove blue;
+    border-bottom: 3px groove blue;
+
+    transition: all 0.3s;
+}
+
+.revenueborders:hover{
+    transform: translateY(-4px);
+}
+/* END REPORT SECTION */
+
+.modals{
+    width: 400px;
+    height: 200px;
+}
+
+/* START FOOTER */
+.icons{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #999;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.2s;
+}
+
+.icons:hover{
+    border: 2px solid #fff;
+    transform: translateY(-2px);
+}
+/* END FOOTER */
