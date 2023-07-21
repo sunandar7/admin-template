@@ -1,0 +1,3 @@
+[submodule "js-todo"]
+	path = js-todo
+	url = https://github.com/SuNandar7/js-todo.git
